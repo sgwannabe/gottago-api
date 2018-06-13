@@ -23,7 +23,10 @@ default: &default
 
 development:
   <<: *default
-  database: hackafy-api_development
+  url: postgres://sowazkdd:B0EjmCEn_gxQRoQZELlNT88z6U8Uzm03@pellefant.db.elephantsql.com:5432/sowazkdd
+  database: sowazkdd
+  username: sowazkdd
+  password: B0EjmCEn_gxQRoQZELlNT88z6U8Uzm03
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

@@ -5,6 +5,10 @@ development:
 test:
   adapter: async
 
+## production:
+##   adapter: redis
+##   url: redis://redistogo:d903cf95651a8756c394a1c8bb203261@sculpin.redistogo.com:9345/
+
 production:
   adapter: redis
-  url: redis://redistogo:d903cf95651a8756c394a1c8bb203261@sculpin.redistogo.com:9345/
+  url: redis://h:pead8359883d7d891077d3b0f523bea41f9ae07ae9df52fdbe1e49e60ee892f8f@ec2-18-204-149-108.compute-1.amazonaws.com:11949
